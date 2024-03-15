@@ -1,0 +1,21 @@
+
+## Work dir
+wd: data/pangenome/
+samples: data/pangenome/samples.tsv
+
+## ATLAS folder
+atlas: /work_dir/
+genome_derep_ids: /allbins2genome.tsv
+checkM: /completeness.tsv
+genome_information: /genomeInformation.csv
+gtdb_bac: /gtdbtk.bac120.summary.tsv
+gtdb_ar: /gtdbtk.ar122.summary.tsv
+
+## Parameters for filtering
+filter_criteria: standard
+genome_completeness_threshold: 90
+genome_contamination_threshold: 10
+min_genomes: 10
+
+
+
