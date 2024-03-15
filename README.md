@@ -9,3 +9,5 @@ In this study we used four different cohorts to verify a previously reported ass
 
 ## Pangenome analyses
 Pangenome analyses of the CRCbiome samples was generated using a snakemake pipeline with the script [pangenome.smk](https://github.com/Rounge-lab/Phascolarctobacterium_CRC/blob/main/pangenome.smk). Average nucleotide identity was estimated using the python script [genomes_for_ANI.py](https://github.com/Rounge-lab/Phascolarctobacterium_CRC/blob/main/scripts/genomes_for_ANI.py).
+
+See our webpage for more information about the [CRCbiome](https://www.mn.uio.no/sbi/english/groups/rounge-group/crcbiome/) and the [NORCCAP](https://www.kreftregisteret.no/Forskning/Prosjekter/NORCCAP/) study 
