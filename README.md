@@ -1,6 +1,6 @@
 # Phascolarctobacterium_CRC
 
-This repository contains code for data analysis used to generate results in the paper *Species-level verification of Phascolarctobacterium association to colorectal cancer*.
+This repository contains code for data analysis used to generate results in the paper *Species-level verification of Phascolarctobacterium association to colorectal cancer*. For details see our preprint at [medRxiv](https://www.medrxiv.org/content/10.1101/2024.03.13.24304214v1).
 
 ## Data generation and analyses
 The script used for analyses of the data is the [/scripts/data_generation.R](https://github.com/Rounge-lab/Phascolarctobacterium_CRC/blob/main/scripts/data_analyses.R). Required R packages include [tidyverse](https://www.tidyverse.org/packages/), [rstatix](https://cran.r-project.org/web/packages/rstatix/index.html), [vegan](https://cran.r-project.org/web/packages/vegan/index.html), [enrichplot](https://bioconductor.org/packages/release/bioc/html/enrichplot.html) and [MicrobiomeProfiler](https://bioconductor.org/packages/release/bioc/html/MicrobiomeProfiler.html).
