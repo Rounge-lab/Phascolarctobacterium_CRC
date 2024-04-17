@@ -263,21 +263,6 @@ rule core_genome_tree:
             iqtree -s {input.alignment} -m GTR+F+R7 -redo &> {log}
         """
 
-rule roary_plots:
-    input:
-        tree=rules.core_genome_tree.output.tree,
-        spreadsheet=rules.roary.output.gene_presence
-    output:
-        pang_freq=os.path.join(config["wd"],"pangenome","plots","{species}","pangenome_frequency.png")
-    params:
-        output_dir=os.path.join(config["wd"],"pangenome","plots","{species}",""),
-    log:
-        os.path.join(config["wd"],"logs","plots","{species}.log")
-    shell:
-        """
-            python scripts/roary_plots.py {input.tree} {input.spreadsheet} --format png -o {params.output_dir} &> {log}
-        """
-
 rule annotate_roary_long:
     input:
         wide_roary=rules.roary.output.clustered_proteins,
